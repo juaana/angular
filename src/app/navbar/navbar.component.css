@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1),
+                -10px -10px 20px rgba(255, 255, 255, 0.9);
+    margin-top: 3%;
+}
+
+.navbar-item {
+    text-decoration: none;
+    color: #0d2750;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navbar-item:hover {
+    color: #0d2750}
